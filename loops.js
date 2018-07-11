@@ -10,6 +10,6 @@ function whileLoop(n) {
     console.log(--n)
   }
   if (n === 0) {
-    console.log("done")
+    return "done"
   }
 }
